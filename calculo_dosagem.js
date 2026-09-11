@@ -9,8 +9,8 @@ const multiplicacao = numero1 * numero2;
 const divisao = numero1 / numero2;
 
 // Mostra os resultados
-console.log("Número 1:", numero1);
-console.log("Número 2:", numero2);
+console.log("Número 1:", numero1
+console.log("Número 2:", numero2)
 
 console.log("Soma:", soma);
 console.log("Subtração:", subtracao);
