@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cálculo de Dosagem</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>💊 Cálculo de Dosagem</h1>
+
+            <p>
+                Sistema para simulação de cálculo de dosagem.
+            </p>
+
+            <label for="peso">Peso do paciente:</label>
+
+            <input 
+                type="number" 
+                id="peso" 
+                placeholder="Digite o peso em kg"
+            >
+
+            <button onclick="calcularDosagem()">
+                Calcular Dosagem
+            </button>
+
+            <div id="resultado">
+                O resultado aparecerá aqui.
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="calculo_dosagem.js"></script>
+
+</body>
+</html>
